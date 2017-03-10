@@ -45,7 +45,7 @@ Essa rotina é capaz de extrair url, título, preço e OS dos smartphones encont
 * Utilizar logs para sinalizar ocorrências durante o scraping --> Ok (os logs foram comentados no código)
 
 ##Tempo necessário para elaboração
-Tempo de estudo: 12h (2h voltadas ao [estudo básico do scrapy][1, 2] e 10h para adequação dos [exemplos no olx][3, 4] utilizando RethinkDB)
+Tempo de estudo: 12h (2h voltadas ao [estudo básico do scrapy][1][2] e 10h para adequação dos [exemplos no olx][3][4] utilizando RethinkDB)
 Escrevendo o programa: 2h (Perceber que os valores dos preços estavam no conteúdo meta do site consumiu 1:30h)
 
 ##Arquivo /luizasmartphones/spiders/luiza_spider.py

@@ -2,6 +2,7 @@ Usando o Scrapy para extração de dados
 ===========================================================
 
 O código abaixo foi desenvoldido no Ubuntu 16.04 e possui 3 requerimentos:
+
 1. Instalação do mongodb que pode ser feita clicando [aqui](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/).
 
 2. Presença do pacote pymongo que pode ser obtido através:```shell sudo pip3 install pymongo```.
@@ -42,7 +43,8 @@ Essa rotina é capaz de extrair url, título, preço e OS dos smartphones encont
 * Utilizar logs para sinalizar ocorrências durante o scraping --> Ok (os logs foram comentados no código)
 
 ##Tempo necessário para elaboração
-Tempo de estudo: 12h (2h voltadas ao estudo básico do scrapy ([aqui](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/) e [aqui](https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/)) e 10h para adequação dos exemplos no olx ([aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-i/) e [aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/)) utilizando RethinkDB)
+Tempo de estudo: 12h (2h voltadas ao estudo básico do scrapy ([aqui](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/) e [aqui](https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/)) e 10h para adequação dos exemplos no olx ([aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-i/) e [aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/)) utilizando RethinkDB).
+
 Escrevendo o programa: 2h (Perceber que os valores dos preços estavam no conteúdo meta do site consumiu 1:30h)
 
 ##Arquivo /luizasmartphones/spiders/luiza_spider.py

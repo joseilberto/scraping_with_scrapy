@@ -3,14 +3,8 @@ Usando o Scrapy para extração de dados
 
 O código abaixo foi desenvoldido no Ubuntu 16.04 e possui 3 requerimentos:
 1. Instalação do mongodb que pode ser feita clicando [aqui](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/);
-2. Presença do pacote pymongo que pode ser obtido através:
-```shell
-sudo pip3 install pymongo
-```
-3. Instalação do scrapy:
-```shell
-sudo pip3 install scrapy
-```
+2. Presença do pacote pymongo que pode ser obtido através:```shell sudo pip3 install pymongo```
+3. Instalação do scrapy: ```shell sudo pip3 install scrapy```
 Para as 3 instalações, todas as configurações padrões foram mantidas.
 
 ##Ativando mongodb

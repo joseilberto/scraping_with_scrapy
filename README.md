@@ -45,7 +45,7 @@ Essa rotina é capaz de extrair url, título, preço e OS dos smartphones encont
 * Utilizar logs para sinalizar ocorrências durante o scraping --> Ok (os logs foram comentados no código)
 
 ##Tempo necessário para elaboração
-Tempo de estudo: 12h (2h voltadas ao [estudo básico do scrapy][1][2] e 10h para adequação dos [exemplos no olx][3][4] utilizando RethinkDB)
+Tempo de estudo: 12h (2h voltadas ao estudo básico do scrapy ([aqui](https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/) e [aqui](https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/)) e 10h para adequação dos exemplos no olx ([aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-i/) e [aqui](http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/)) utilizando RethinkDB)
 Escrevendo o programa: 2h (Perceber que os valores dos preços estavam no conteúdo meta do site consumiu 1:30h)
 
 ##Arquivo /luizasmartphones/spiders/luiza_spider.py
@@ -152,8 +152,5 @@ class LuizaItem(Item):
     system = Field()
 ```
 
-[1]: https://realpython.com/blog/python/web-scraping-with-scrapy-and-mongodb/
-[2]: https://realpython.com/blog/python/web-scraping-and-crawling-with-scrapy-and-mongodb/
-[3]: http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-i/
-[4]: http://www.gilenofilho.com.br/usando-o-scrapy-e-o-rethinkdb-para-capturar-e-armazenar-dados-imobiliarios-parte-ii/
+
  
